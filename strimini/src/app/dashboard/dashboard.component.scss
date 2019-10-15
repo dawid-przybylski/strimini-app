@@ -1,0 +1,1946 @@
+
+
+.dashboard {
+    width               : 100%;
+    min-width           : 1125px;
+    height              : 100vh;
+    min-height          : 2436px;
+    position            : relative;
+    overflow            : hidden;
+    margin              : 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color    : rgba(255, 255, 255, 1.0);
+  }
+  a {
+    text-decoration     : none;
+  }
+  div {
+    -webkit-text-size-adjust: none;
+  }
+  .anima-full-width-a {
+    width               : 100%;
+  }
+  .anima-full-height-a {
+    height              : 100%;
+  }
+  div {
+    -webkit-text-size-adjust: none;
+  }
+  .dashboard .rectangle {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 222px;
+    height              : 2205px;
+    width               : 1125px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : -31px;
+    height              : 645px;
+    width               : 1261px;
+    position            : absolute;
+    margin              : 0;
+    left                : -68px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .rectangle3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 645px;
+    width               : 1261px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .rectangle1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 31px;
+    height              : 339px;
+    width               : 1125px;
+    position            : absolute;
+    margin              : 0;
+    left                : 68px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .rectangle2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 499px;
+    height              : 146px;
+    width               : 720px;
+    position            : absolute;
+    margin              : 0;
+    left                : 7px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .currentrates {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 438px;
+    height              : auto;
+    width               : 488px;
+    position            : absolute;
+    margin              : 0;
+    left                : 123px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 45.0px;
+    color               : rgba(39, 41, 43, 1.0);
+    text-align          : center;
+    line-height         : 30.05px;
+  }
+  .dashboard .header .projections {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 438px;
+    height              : auto;
+    width               : 488px;
+    position            : absolute;
+    margin              : 0;
+    left                : 665px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 46.0px;
+    color               : rgba(136, 136, 136, 1.0);
+    text-align          : center;
+    line-height         : 30.05px;
+  }
+  .dashboard .header .search {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 180px;
+    height              : 123px;
+    width               : 961px;
+    position            : absolute;
+    margin              : 0;
+    left                : 149px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .search .rectangle21 {
+    background-color    : rgba(255, 255, 255, 1.0);
+    top                 : 0px;
+    height              : 123px;
+    width               : 961px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 61px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .search .shape {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 33px;
+    height              : 50px;
+    width               : 47px;
+    position            : absolute;
+    margin              : 0;
+    left                : 50px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .search .searchforanything {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 32px;
+    height              : auto;
+    width               : 598px;
+    position            : absolute;
+    margin              : 0;
+    left                : 142px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 42.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : left;
+    line-height         : 31.05px;
+  }
+  .dashboard .header .statusbar {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 90px;
+    height              : 46px;
+    width               : 980px;
+    position            : absolute;
+    margin              : 0;
+    left                : 165px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .statusbar .carriersignal {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 33px;
+    width               : 55px;
+    position            : absolute;
+    margin              : 0;
+    left                : 797px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .statusbar .carriersignal .a1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 17px;
+    height              : 16px;
+    width               : 12px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .statusbar .carriersignal .a2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 13px;
+    height              : 20px;
+    width               : 11px;
+    position            : absolute;
+    margin              : 0;
+    left                : 15px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .statusbar .carriersignal .a3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 6px;
+    height              : 27px;
+    width               : 11px;
+    position            : absolute;
+    margin              : 0;
+    left                : 29px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .statusbar .carriersignal .a4 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 33px;
+    width               : 12px;
+    position            : absolute;
+    margin              : 0;
+    left                : 43px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .statusbar .combinedshape630 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 2px;
+    height              : 30px;
+    width               : 45px;
+    position            : absolute;
+    margin              : 0;
+    left                : 862px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .statusbar .a517 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 3px;
+    height              : auto;
+    width               : 97px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 36.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : center;
+    letter-spacing      : -0.9px;
+    line-height         : 43.0px;
+  }
+  .dashboard .header .statusbar .battery {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 1px;
+    height              : 32px;
+    width               : 63px;
+    position            : absolute;
+    margin              : 0;
+    left                : 917px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .statusbar .battery .combinedshape633 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 32px;
+    width               : 63px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .header .statusbar .battery .batteryfill {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 4px;
+    height              : 23px;
+    width               : 48px;
+    position            : absolute;
+    margin              : 0;
+    left                : 5px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 500px;
+    height              : 935px;
+    width               : 100%;
+    position            : absolute;
+    margin              : 0;
+    left                : -28px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .rectangle3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 935px;
+    width               : 100%;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .rectangle1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 153px;
+    height              : 204px;
+    width               : 295px;
+    position            : absolute;
+    margin              : 0;
+    left                : 694px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .a349079201304 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 203px;
+    height              : auto;
+    width               : 541px;
+    position            : absolute;
+    margin              : 0;
+    left                : 291px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 50.0px;
+    color               : rgba(34, 34, 34, 1.0);
+    text-align          : left;
+    line-height         : 50.0px;
+  }
+  .dashboard .coingroup .a349079201304 .span1 {
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup .a349079201304 .span2 {
+    color               : rgba(170, 170, 170, 1.0);
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup .a349079201304 .span3 {
+    color               : rgba(40, 216, 161, 1.0);
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup .a168 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 211px;
+    height              : auto;
+    width               : 124px;
+    position            : absolute;
+    margin              : 0;
+    left                : 779px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 36.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : left;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup .bitcoin {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 128px;
+    height              : auto;
+    width               : 270px;
+    position            : absolute;
+    margin              : 0;
+    left                : 295px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 58.0px;
+    color               : rgba(34, 34, 34, 1.0);
+    text-align          : left;
+    line-height         : 70.0px;
+  }
+  .dashboard .coingroup .pricecandecreseby {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 281px;
+    height              : auto;
+    width               : 756px;
+    position            : absolute;
+    margin              : 0;
+    left                : 291px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 40.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : left;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup .path2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 353px;
+    height              : 340px;
+    width               : 1030px;
+    position            : absolute;
+    margin              : 0;
+    left                : 78px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .rectangle2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 621px;
+    height              : 314px;
+    width               : 100%;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .group {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 674px;
+    height              : 197px;
+    width               : 815px;
+    position            : absolute;
+    margin              : 0;
+    left                : 125px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .group .trendforlast {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 66px;
+    height              : auto;
+    width               : 248px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(34, 34, 34, 1.0);
+    text-align          : left;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup .group .rectangle4 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 197px;
+    width               : 223px;
+    position            : absolute;
+    margin              : 0;
+    left                : 290px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .group .a7d {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 68px;
+    height              : auto;
+    width               : 53px;
+    position            : absolute;
+    margin              : 0;
+    left                : 375px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup .group .a1m {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 68px;
+    height              : auto;
+    width               : 53px;
+    position            : absolute;
+    margin              : 0;
+    left                : 486px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup .group .a1d {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 68px;
+    height              : auto;
+    width               : 53px;
+    position            : absolute;
+    margin              : 0;
+    left                : 272px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup .group .a3m {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 68px;
+    height              : auto;
+    width               : 60px;
+    position            : absolute;
+    margin              : 0;
+    left                : 576px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup .group .a1y {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 68px;
+    height              : auto;
+    width               : 53px;
+    position            : absolute;
+    margin              : 0;
+    left                : 661px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup .group .ytd {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 71px;
+    height              : auto;
+    width               : 77px;
+    position            : absolute;
+    margin              : 0;
+    left                : 739px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup .btc {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 113px;
+    height              : 116px;
+    width               : 116px;
+    position            : absolute;
+    margin              : 0;
+    left                : 125px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .btc .fill504 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 116px;
+    width               : 116px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .btc .fill505 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 21px;
+    height              : 75px;
+    width               : 60px;
+    position            : absolute;
+    margin              : 0;
+    left                : 26px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .star {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 117px;
+    height              : 50px;
+    width               : 51px;
+    position            : absolute;
+    margin              : 0;
+    left                : 948px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .star .shape1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 50px;
+    width               : 51px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .menuoption1374 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 122px;
+    height              : 48px;
+    width               : 12px;
+    position            : absolute;
+    margin              : 0;
+    left                : 1041px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup .shape {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 227px;
+    height              : 18px;
+    width               : 33px;
+    position            : absolute;
+    margin              : 0;
+    left                : 519px;
+    -ms-transform       : rotate(90deg); /* IE 9 */
+    -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+    transform           : rotate(90deg);
+  }
+  .dashboard .coingroup1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 1342px;
+    height              : 499px;
+    width               : 100%;
+    position            : absolute;
+    margin              : 0;
+    left                : -28px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup1 .rectangle2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 499px;
+    width               : 100%;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup1 .rectangle1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 153px;
+    height              : 204px;
+    width               : 295px;
+    position            : absolute;
+    margin              : 0;
+    left                : 642px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup1 .a91010026441 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 203px;
+    height              : auto;
+    width               : 406px;
+    position            : absolute;
+    margin              : 0;
+    left                : 291px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 50.0px;
+    color               : rgba(34, 34, 34, 1.0);
+    text-align          : left;
+    line-height         : 50.0px;
+  }
+  .dashboard .coingroup1 .a91010026441 .span1 {
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup1 .a91010026441 .span2 {
+    color               : rgba(170, 170, 170, 1.0);
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup1 .a91010026441 .span3 {
+    color               : rgba(249, 91, 91, 1.0);
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup1 .a002 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 211px;
+    height              : auto;
+    width               : 124px;
+    position            : absolute;
+    margin              : 0;
+    left                : 727px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 36.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : left;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup1 .ethereum {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 132px;
+    height              : auto;
+    width               : 270px;
+    position            : absolute;
+    margin              : 0;
+    left                : 295px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 56.0px;
+    color               : rgba(34, 34, 34, 1.0);
+    text-align          : left;
+    line-height         : 67.0px;
+  }
+  .dashboard .coingroup1 .pricecandecreseby {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 281px;
+    height              : auto;
+    width               : 756px;
+    position            : absolute;
+    margin              : 0;
+    left                : 291px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 40.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : left;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup1 .eth {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 113px;
+    height              : 115px;
+    width               : 115px;
+    position            : absolute;
+    margin              : 0;
+    left                : 125px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup1 .eth .fill506 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 115px;
+    width               : 115px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup1 .eth .fill507 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 14px;
+    height              : 64px;
+    width               : 25px;
+    position            : absolute;
+    margin              : 0;
+    left                : 32px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup1 .eth .fill508 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 14px;
+    height              : 64px;
+    width               : 25px;
+    position            : absolute;
+    margin              : 0;
+    left                : 57px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup1 .eth .fill509 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 66px;
+    height              : 33px;
+    width               : 25px;
+    position            : absolute;
+    margin              : 0;
+    left                : 32px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup1 .eth .fill510 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 66px;
+    height              : 33px;
+    width               : 25px;
+    position            : absolute;
+    margin              : 0;
+    left                : 57px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup1 .star {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 117px;
+    height              : 50px;
+    width               : 51px;
+    position            : absolute;
+    margin              : 0;
+    left                : 948px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup1 .star .shape1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 50px;
+    width               : 51px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup1 .menuoption1374 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 122px;
+    height              : 48px;
+    width               : 12px;
+    position            : absolute;
+    margin              : 0;
+    left                : 1041px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup1 .shape {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 227px;
+    height              : 18px;
+    width               : 33px;
+    position            : absolute;
+    margin              : 0;
+    left                : 436px;
+    -ms-transform       : rotate(-90deg); /* IE 9 */
+    -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+    transform           : rotate(-90deg);
+  }
+  .dashboard .coingroup2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 1748px;
+    height              : 499px;
+    width               : 100%;
+    position            : absolute;
+    margin              : 0;
+    left                : -28px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup2 .rectangle2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 499px;
+    width               : 100%;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup2 .rectangle1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 153px;
+    height              : 204px;
+    width               : 295px;
+    position            : absolute;
+    margin              : 0;
+    left                : 732px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup2 .a2549000730992 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 203px;
+    height              : auto;
+    width               : 492px;
+    position            : absolute;
+    margin              : 0;
+    left                : 291px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 50.0px;
+    color               : rgba(34, 34, 34, 1.0);
+    text-align          : left;
+    line-height         : 50.0px;
+  }
+  .dashboard .coingroup2 .a2549000730992 .span1 {
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup2 .a2549000730992 .span2 {
+    color               : rgba(170, 170, 170, 1.0);
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup2 .a2549000730992 .span3 {
+    color               : rgba(249, 91, 91, 1.0);
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup2 .a002 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 211px;
+    height              : auto;
+    width               : 124px;
+    position            : absolute;
+    margin              : 0;
+    left                : 817px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 36.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : left;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup2 .litecoin {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 132px;
+    height              : auto;
+    width               : 270px;
+    position            : absolute;
+    margin              : 0;
+    left                : 295px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 56.0px;
+    color               : rgba(34, 34, 34, 1.0);
+    text-align          : left;
+    line-height         : 67.0px;
+  }
+  .dashboard .coingroup2 .pricecandecreseby {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 281px;
+    height              : auto;
+    width               : 756px;
+    position            : absolute;
+    margin              : 0;
+    left                : 291px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 40.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : left;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup2 .ltc {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 113px;
+    height              : 115px;
+    width               : 115px;
+    position            : absolute;
+    margin              : 0;
+    left                : 125px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup2 .ltc .fill491 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 115px;
+    width               : 115px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup2 .ltc .fill492 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 5px;
+    height              : 106px;
+    width               : 106px;
+    position            : absolute;
+    margin              : 0;
+    left                : 5px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup2 .ltc .fill499 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 23px;
+    height              : 64px;
+    width               : 64px;
+    position            : absolute;
+    margin              : 0;
+    left                : 27px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup2 .star {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 117px;
+    height              : 50px;
+    width               : 51px;
+    position            : absolute;
+    margin              : 0;
+    left                : 948px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup2 .star .shape1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 50px;
+    width               : 51px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup2 .menuoption1374 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 117px;
+    height              : 48px;
+    width               : 12px;
+    position            : absolute;
+    margin              : 0;
+    left                : 1041px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup2 .shape {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 227px;
+    height              : 18px;
+    width               : 33px;
+    position            : absolute;
+    margin              : 0;
+    left                : 450px;
+    -ms-transform       : rotate(-90deg); /* IE 9 */
+    -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+    transform           : rotate(-90deg);
+  }
+  .dashboard .coingroup3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 2152px;
+    height              : 935px;
+    width               : 100%;
+    position            : absolute;
+    margin              : 0;
+    left                : -28px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .rectangle3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 935px;
+    width               : 100%;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .rectangle1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 79px;
+    height              : 602px;
+    width               : 1034px;
+    position            : absolute;
+    margin              : 0;
+    left                : 74px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .rectangle2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 153px;
+    height              : 204px;
+    width               : 295px;
+    position            : absolute;
+    margin              : 0;
+    left                : 642px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .a91010026441 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 203px;
+    height              : auto;
+    width               : 406px;
+    position            : absolute;
+    margin              : 0;
+    left                : 291px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 50.0px;
+    color               : rgba(34, 34, 34, 1.0);
+    text-align          : left;
+    line-height         : 50.0px;
+  }
+  .dashboard .coingroup3 .a91010026441 .span1 {
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup3 .a91010026441 .span2 {
+    color               : rgba(170, 170, 170, 1.0);
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup3 .a91010026441 .span3 {
+    color               : rgba(249, 91, 91, 1.0);
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup3 .a002 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 211px;
+    height              : auto;
+    width               : 124px;
+    position            : absolute;
+    margin              : 0;
+    left                : 727px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 36.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : left;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup3 .ethereum {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 136px;
+    height              : auto;
+    width               : 270px;
+    position            : absolute;
+    margin              : 0;
+    left                : 295px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 52.0px;
+    color               : rgba(34, 34, 34, 1.0);
+    text-align          : left;
+    line-height         : 62.0px;
+  }
+  .dashboard .coingroup3 .pricecandecreseby {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 281px;
+    height              : auto;
+    width               : 756px;
+    position            : absolute;
+    margin              : 0;
+    left                : 291px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 40.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : left;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup3 .group {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 674px;
+    height              : 197px;
+    width               : 815px;
+    position            : absolute;
+    margin              : 0;
+    left                : 125px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .group .trendforlast {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 66px;
+    height              : auto;
+    width               : 248px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(34, 34, 34, 1.0);
+    text-align          : left;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup3 .group .rectangle4 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 197px;
+    width               : 223px;
+    position            : absolute;
+    margin              : 0;
+    left                : 290px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .group .a7d {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 68px;
+    height              : auto;
+    width               : 53px;
+    position            : absolute;
+    margin              : 0;
+    left                : 375px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup3 .group .a1m {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 68px;
+    height              : auto;
+    width               : 53px;
+    position            : absolute;
+    margin              : 0;
+    left                : 486px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup3 .group .a1d {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 68px;
+    height              : auto;
+    width               : 53px;
+    position            : absolute;
+    margin              : 0;
+    left                : 272px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup3 .group .a3m {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 68px;
+    height              : auto;
+    width               : 60px;
+    position            : absolute;
+    margin              : 0;
+    left                : 576px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup3 .group .a1y {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 68px;
+    height              : auto;
+    width               : 53px;
+    position            : absolute;
+    margin              : 0;
+    left                : 661px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup3 .group .ytd {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 71px;
+    height              : auto;
+    width               : 77px;
+    position            : absolute;
+    margin              : 0;
+    left                : 739px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 38.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 31.05px;
+  }
+  .dashboard .coingroup3 .eth {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 113px;
+    height              : 115px;
+    width               : 115px;
+    position            : absolute;
+    margin              : 0;
+    left                : 125px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .eth .fill506 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 115px;
+    width               : 115px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .eth .fill507 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 14px;
+    height              : 64px;
+    width               : 25px;
+    position            : absolute;
+    margin              : 0;
+    left                : 32px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .eth .fill508 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 14px;
+    height              : 64px;
+    width               : 25px;
+    position            : absolute;
+    margin              : 0;
+    left                : 57px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .eth .fill509 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 66px;
+    height              : 33px;
+    width               : 25px;
+    position            : absolute;
+    margin              : 0;
+    left                : 32px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .eth .fill510 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 66px;
+    height              : 33px;
+    width               : 25px;
+    position            : absolute;
+    margin              : 0;
+    left                : 57px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .star {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 117px;
+    height              : 50px;
+    width               : 51px;
+    position            : absolute;
+    margin              : 0;
+    left                : 948px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .star .shape1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 50px;
+    width               : 51px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .menuoption1374 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 122px;
+    height              : 48px;
+    width               : 12px;
+    position            : absolute;
+    margin              : 0;
+    left                : 1041px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .coingroup3 .shape {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 227px;
+    height              : 18px;
+    width               : 33px;
+    position            : absolute;
+    margin              : 0;
+    left                : 436px;
+    -ms-transform       : rotate(-90deg); /* IE 9 */
+    -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+    transform           : rotate(-90deg);
+  }
+  .dashboard .coingroup3 .path2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 352px;
+    height              : 341px;
+    width               : 1031px;
+    position            : absolute;
+    margin              : 0;
+    left                : 78px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 2098px;
+    height              : 370px;
+    width               : 1261px;
+    position            : absolute;
+    margin              : 0;
+    left                : -66px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .rectangle1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 370px;
+    width               : 1261px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .combinedshape1018 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 149px;
+    height              : 64px;
+    width               : 68px;
+    position            : absolute;
+    margin              : 0;
+    left                : 148px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .home {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 242px;
+    height              : auto;
+    width               : 175px;
+    position            : absolute;
+    margin              : 0;
+    left                : 95px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 34.0px;
+    color               : rgba(253, 189, 81, 1.0);
+    text-align          : center;
+    line-height         : 41.0px;
+  }
+  .dashboard .tabbar .markets {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 242px;
+    height              : auto;
+    width               : 175px;
+    position            : absolute;
+    margin              : 0;
+    left                : 324px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 34.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 41.0px;
+  }
+  .dashboard .tabbar .trades {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 242px;
+    height              : auto;
+    width               : 175px;
+    position            : absolute;
+    margin              : 0;
+    left                : 756px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 34.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 41.0px;
+  }
+  .dashboard .tabbar .settings {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 242px;
+    height              : auto;
+    width               : 175px;
+    position            : absolute;
+    margin              : 0;
+    left                : 973px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 34.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 41.0px;
+  }
+  .dashboard .tabbar .u0421u043bu043eu0439122 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 146px;
+    height              : 72px;
+    width               : 72px;
+    position            : absolute;
+    margin              : 0;
+    left                : 807px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .u0421u043bu043eu0439122 .shape {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 39px;
+    height              : 14px;
+    width               : 13px;
+    position            : absolute;
+    margin              : 0;
+    left                : 54px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .u0421u043bu043eu0439122 .shape1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 39px;
+    height              : 21px;
+    width               : 13px;
+    position            : absolute;
+    margin              : 0;
+    left                : 39px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .u0421u043bu043eu0439122 .shape2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 39px;
+    height              : 28px;
+    width               : 13px;
+    position            : absolute;
+    margin              : 0;
+    left                : 22px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .u0421u043bu043eu0439122 .shape3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 39px;
+    height              : 33px;
+    width               : 13px;
+    position            : absolute;
+    margin              : 0;
+    left                : 6px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .u0421u043bu043eu0439122 .shape4 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 33px;
+    width               : 72px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .chart7 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 155px;
+    height              : 63px;
+    width               : 74px;
+    position            : absolute;
+    margin              : 0;
+    left                : 367px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .chart7 .shape {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 58px;
+    height              : 5px;
+    width               : 74px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .chart7 .shape1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 27px;
+    height              : 29px;
+    width               : 16px;
+    position            : absolute;
+    margin              : 0;
+    left                : 28px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .chart7 .shape2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 15px;
+    height              : 41px;
+    width               : 16px;
+    position            : absolute;
+    margin              : 0;
+    left                : 49px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .chart7 .shape3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 56px;
+    width               : 16px;
+    position            : absolute;
+    margin              : 0;
+    left                : 8px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .wallet {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 242px;
+    height              : auto;
+    width               : 175px;
+    position            : absolute;
+    margin              : 0;
+    left                : 534px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Helvetica", Helvetica, Arial, serif;
+    font-size           : 34.0px;
+    color               : rgba(170, 170, 170, 1.0);
+    text-align          : center;
+    line-height         : 41.0px;
+  }
+  .dashboard .tabbar .wallet1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 158px;
+    height              : 57px;
+    width               : 65px;
+    position            : absolute;
+    margin              : 0;
+    left                : 588px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .wallet1 .shape {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 57px;
+    width               : 65px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .wallet1 .oval {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 25px;
+    height              : 4px;
+    width               : 4px;
+    position            : absolute;
+    margin              : 0;
+    left                : 52px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .settings2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 159px;
+    height              : 59px;
+    width               : 59px;
+    position            : absolute;
+    margin              : 0;
+    left                : 1030px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .settings2 .shape {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 18px;
+    height              : 21px;
+    width               : 21px;
+    position            : absolute;
+    margin              : 0;
+    left                : 19px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .tabbar .settings2 .shape1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 59px;
+    width               : 59px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .dashboard .homebutton {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 2385px;
+    height              : 18px;
+    width               : 406px;
+    position            : absolute;
+    margin              : 0;
+    left                : 361px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    opacity             : 0.2;
+  }
+  /* .anima-animate-appear prefix for appear animations */
+  .anima-animate-appear {
+    opacity             : 0;
+    display             : block;
+    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+    animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  }
+  .anima-animate-disappear {
+    opacity             : 1;
+    display             : block;
+    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  }
+  .anima-animate-nodelay {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay  : 0;
+    animation-delay     : 0;
+  }
+  @-webkit-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @-moz-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @-o-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
