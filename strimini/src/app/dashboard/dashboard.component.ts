@@ -13,21 +13,20 @@ export class DashboardComponent {
     map(({ matches }) => {
       if (matches) {
         return [
-          { title: 'Card 1', cols: 1, rows: 1 },
-          { title: 'Card 2', cols: 1, rows: 1 },
-          { title: 'Card 3', cols: 1, rows: 1 },
-          { title: 'Card 4', cols: 1, rows: 1 }
+          { title: 'Tesla', cols: 1, rows: 1, img: 'assets/img/chart.png' },
+          { title: 'Trump', cols: 1, rows: 1, img: 'assets/img/chart.png' },
+          { title: 'Asseco', cols: 1, rows: 1, img: 'assets/img/chart.png' },
+          
         ];
       }
 
       return [
-        { title: 'Card 1', cols: 1, rows: 1 },
-        { title: 'Card 2', cols: 1, rows: 1 },
-        { title: 'Card 3', cols: 1, rows: 2 },
-        { title: 'Card 4', cols: 1, rows: 1 }
-      ];
+        { title: 'Card 1', cols: 1, rows: 1, img: 'assets/img/chart.png' },
+        { title: 'Card 2', cols: 1, rows: 1, img: 'assets/img/chart.png' },
+        { title: 'Card 3', cols: 1, rows: 2, img: 'assets/img/chart.png' },
+        ];
     })
   );
 
-  constructor(private breakpointObserver: BreakpointObserver) {}
+  constructor(private breakpointObserver: BreakpointObserver) { }
 }
