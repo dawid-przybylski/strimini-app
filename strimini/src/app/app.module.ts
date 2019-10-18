@@ -19,6 +19,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AssetPageComponent } from './asset-page/asset-page.component';
 import { StockDetailComponent } from './stock-detail/stock-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     NavbarComponent,
     AssetPageComponent,
     StockDetailComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    SplashScreenComponent
   ],
   imports: [
     BrowserModule,
