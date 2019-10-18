@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { map } from 'rxjs/operators';
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-dashboard',
@@ -16,17 +17,20 @@ export class DashboardComponent {
           { title: 'Tesla', cols: 1, rows: 1, img: 'assets/img/chart.png' },
           { title: 'Trump', cols: 1, rows: 1, img: 'assets/img/chart.png' },
           { title: 'Asseco', cols: 1, rows: 1, img: 'assets/img/chart.png' },
-          
         ];
       }
 
       return [
-        { title: 'Card 1', cols: 1, rows: 1, img: 'assets/img/chart.png' },
-        { title: 'Card 2', cols: 1, rows: 1, img: 'assets/img/chart.png' },
-        { title: 'Card 3', cols: 1, rows: 2, img: 'assets/img/chart.png' },
-        ];
+        { title: 'Tesla', cols: 1, rows: 1, img: 'assets/img/chart.png' },
+        { title: 'Trump', cols: 1, rows: 1, img: 'assets/img/chart.png' },
+        { title: 'Asseco', cols: 1, rows: 1, img: 'assets/img/chart.png' },
+      ];
     })
   );
 
-  constructor(private breakpointObserver: BreakpointObserver) { }
+  constructor(private breakpointObserver: BreakpointObserver, private router: Router) { }
+
+  public clickHandler(id: string) {
+    this.router.navigateByUrl(`stockDetail/${id}`);
+  }
 }

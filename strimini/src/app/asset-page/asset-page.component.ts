@@ -23,11 +23,15 @@ export class AssetPageComponent implements OnInit {
         ];
       }
 
-      // return [
-      //   { title: 'Card 1', cols: 1, rows: 1, img: 'assets/img/chart.png' },
-      //   { title: 'Card 2', cols: 1, rows: 1, img: 'assets/img/chart.png' },
-      //   { title: 'Card 3', cols: 1, rows: 2, img: 'assets/img/chart.png' },
-      //   ];
+      return [
+        { title: 'BBC', cols: 1, rows: 1, img: 'assets/img/bbc-logo.png' },
+        { title: 'Al Jazeera', cols: 1, rows: 1, img: 'assets/img/aljazeera.jpg' },
+        { title: 'Twitter', cols: 1, rows: 1, img: 'assets/img/twitter-logo.png' },
+        { title: 'CNN', cols: 1, rows: 1, img: 'assets/img/cnn-logo.webp' },
+        { title: 'TVN24', cols: 1, rows: 1, img: 'assets/img/tvn24-logo.jpg' },
+        { title: 'Bloomberg', cols: 1, rows: 1, img: 'assets/img/bloomberg-tv-logo.webp' },
+        { title: 'RussiaToday', cols: 1, rows: 1, img: 'assets/img/russia-today.png' },
+      ];
     })
   );
 

@@ -17,13 +17,17 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AssetPageComponent } from './asset-page/asset-page.component';
+import { StockDetailComponent } from './stock-detail/stock-detail.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     NavbarComponent,
-    AssetPageComponent
+    AssetPageComponent,
+    StockDetailComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
