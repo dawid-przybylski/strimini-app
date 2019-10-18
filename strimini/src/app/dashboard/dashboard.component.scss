@@ -19,3 +19,11 @@
 .dashboard-card-content {
   text-align: center;
 }
+
+.mat-tab-labels {
+  display: flex;
+}
+
+::ng-deep .mat-tab-label {
+  flex: 1;
+}
