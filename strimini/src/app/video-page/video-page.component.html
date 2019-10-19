@@ -1,8 +1,15 @@
-<div>
-  <video *ngIf="url" id="video_{{idx}}" class="video-js vjs-default-skin vjs-big-play-centered vjs-16-9" controls
-    preload width="640" height="264">
-    <source [src]="url" type="video/mp4" />
-  </video>
-</div>
 
-<app-word-frequency-graph></app-word-frequency-graph>
+<mat-card>
+  <mat-card-title>Fox Business</mat-card-title>
+  <mat-card-subtitle>Breaking news</mat-card-subtitle>
+  <mat-card-content>
+      <video *ngIf="url" id="video_{{idx}}" class="video-js vjs-default-skin vjs-big-play-centered vjs-16-9" controls
+      preload width="640" height="264">
+      <source [src]="url" type="video/mp4" />
+    </video>
+    <app-word-frequency-graph></app-word-frequency-graph>
+  </mat-card-content>
+</mat-card>
+ 
+
+

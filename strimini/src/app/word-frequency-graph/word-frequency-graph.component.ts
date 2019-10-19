@@ -33,7 +33,8 @@ export class WordFrequencyGraphComponent implements OnInit {
     vAxis: {
       title: 'Frequency'
     },
-    backgroundColor: '#000000',
+    backgroundColor: {fill: 'transparent'},
+  
     color: '#FFFFFF',
   };
 
