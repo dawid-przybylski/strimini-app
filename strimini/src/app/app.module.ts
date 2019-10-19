@@ -29,6 +29,8 @@ import { HeaderComponent } from './header/header.component';
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 import { WordFrequencyGraphComponent } from './word-frequency-graph/word-frequency-graph.component';
 
+import {MatDividerModule} from '@angular/material/divider';
+
 
 @NgModule({
   declarations: [
@@ -59,6 +61,7 @@ import { WordFrequencyGraphComponent } from './word-frequency-graph/word-frequen
     MatButtonModule,
     LayoutModule,
     MatToolbarModule,
+    MatDividerModule,
     GoogleChartsModule.forRoot(),
   ],
   providers: [],

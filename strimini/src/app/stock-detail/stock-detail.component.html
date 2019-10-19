@@ -1,12 +1,8 @@
-<mat-toolbar>
-    <h1>
-        {{stock.title}}
-    </h1>
-</mat-toolbar>
+
 <mat-card class="dashboard-card">
     <mat-card-header>
         <mat-card-title>
-            <!-- {{stock.title}} -->
+            {{stock.title}}
             <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
                 <mat-icon>more_vert</mat-icon>
             </button>
@@ -16,10 +12,11 @@
             </mat-menu>
         </mat-card-title>
     </mat-card-header>
+    <img mat-card-image src="{{stock.img}}">
     <mat-card-content class="dashboard-card-content">
-        <img mat-card-image src="{{stock.img}}">
-        <div>Card Content Here</div>
+       
     </mat-card-content>
+    <mat-card-actions></mat-card-actions>
 </mat-card>
 
 <app-asset-page></app-asset-page>

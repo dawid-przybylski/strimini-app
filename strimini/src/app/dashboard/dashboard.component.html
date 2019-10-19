@@ -1,8 +1,7 @@
-<app-header></app-header>
+
 <div class="page-content">
   <div class="grid-container">
-    <h1 class="mat-h1">Your tags</h1>
-    <mat-grid-list cols="1" rowHeight="250px">
+    <mat-grid-list cols="1" rowHeight="200px">
       <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
         <mat-card class="dashboard-card" (click)="clickHandler(card.title)">
           <mat-card-header>
@@ -17,9 +16,9 @@
               </mat-menu>
             </mat-card-title>
           </mat-card-header>
+          <img mat-card-image src="{{card.img}}">
           <mat-card-content class="dashboard-card-content">
-            <img mat-card-image src="{{card.img}}">
-            <div>Card Content Here</div>
+            
           </mat-card-content>
         </mat-card>
       </mat-grid-tile>
