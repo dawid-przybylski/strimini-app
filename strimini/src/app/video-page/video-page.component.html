@@ -1,7 +1,10 @@
 
-<mat-card>
-  <mat-card-title>Fox Business</mat-card-title>
-  <mat-card-subtitle>Breaking news</mat-card-subtitle>
+<mat-card class="video-card">
+  <mat-card-header>
+      <div mat-card-avatar class="channel-avatar"></div>
+      <mat-card-title>FOX News</mat-card-title>
+      <mat-card-subtitle>Breaking News</mat-card-subtitle>
+</mat-card-header>
   <mat-card-content>
       <video *ngIf="url" id="video_{{idx}}" class="video-js vjs-default-skin vjs-big-play-centered vjs-16-9" controls
       preload width="640" height="264">

@@ -1,5 +1,5 @@
 <div class="grid-container">
-    <mat-grid-list cols="3" rowHeight="250px">
+    <mat-grid-list cols="3" rowHeight="220px" gutterSize="10px">
         <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
             <mat-card class="dashboard-card" (click)="mediaAssetClicked(card)">
             <!-- <mat-card-header>
@@ -14,8 +14,10 @@
                 </mat-menu>
                 </mat-card-title>
             </mat-card-header> -->
+            <mat-card-header></mat-card-header>
+            <img mat-card-image src="{{card.img}}" >
             <mat-card-content class="dashboard-card-content">
-                <img mat-card-image src="{{card.img}}">
+              
                 <div>Mentions: {{card.mentions}}
                     <img class="trending-arrow" *ngIf="card.mentions > 5" src="assets/img/trending-up.png">
                 </div>
