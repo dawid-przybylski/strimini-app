@@ -17,7 +17,7 @@ export class VideoPageComponent implements OnInit, AfterViewInit {
   constructor() { }
 
   ngOnInit() {
-    this.url = 'assets/videos/small.mp4';
+    this.url = 'assets/videos/tesla.mp4';
     this.idx = '1';
   }
 
@@ -26,20 +26,20 @@ export class VideoPageComponent implements OnInit, AfterViewInit {
     const el = 'video_' + this.idx;
 
     // // setup the player via the unique element ID
-    this.player = videojs(document.getElementById(el), {}, function () {
+    this.player = videojs(document.getElementById(el), {}, function() {
 
       //   // Store the video object
       const myPlayer = this, id = myPlayer.id();
 
       //   // Make up an aspect ratio
-      let aspectRatio = 264 / 640;
+      const aspectRatio = 264 / 640;
 
       //   // internal method to handle a window resize event to adjust the video player
       function resizeVideoJS() {
       //   let width = document.getElementById(id).parentElement.offsetWidth;
       const width = 264;
-        myPlayer.width(width);
-        myPlayer.height(width * aspectRatio);
+      myPlayer.width(width);
+      myPlayer.height(width * aspectRatio);
       }
 
       //   // Initialize resizeVideoJS()
@@ -51,14 +51,14 @@ export class VideoPageComponent implements OnInit, AfterViewInit {
 
     this.player.markers({
       markerStyle: {
-        'width': '8px',
+        width: '8px',
         'background-color': 'red'
       },
       markers: [
-        { time: 1, text: "this" },
-        { time: 2, text: "is" },
-        { time: 3, text: "so" },
-        { time: 4, text: "cool" }
+        { time: 3, text: 'this' },
+        { time: 7, text: 'is' },
+        { time: 11, text: 'so' },
+        { time: 13, text: 'cool' }
       ]
     });
   }

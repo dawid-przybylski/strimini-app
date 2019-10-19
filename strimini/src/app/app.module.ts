@@ -21,6 +21,8 @@ import { StockDetailComponent } from './stock-detail/stock-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { VideoPageComponent } from './video-page/video-page.component';
 import { MediaAssetPageComponent } from './media-asset-page/media-asset-page.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { MediaAssetPageComponent } from './media-asset-page/media-asset-page.com
     StockDetailComponent,
     PageNotFoundComponent,
     VideoPageComponent,
-    MediaAssetPageComponent
+    MediaAssetPageComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
