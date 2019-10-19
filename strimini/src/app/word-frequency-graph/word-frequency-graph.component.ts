@@ -32,7 +32,9 @@ export class WordFrequencyGraphComponent implements OnInit {
     },
     vAxis: {
       title: 'Frequency'
-    }
+    },
+    backgroundColor: '#000000',
+    color: '#FFFFFF',
   };
 
   public myColumnNames = ['City', 'Inhabitants'];
