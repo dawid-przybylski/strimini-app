@@ -20,6 +20,7 @@ import { AssetPageComponent } from './asset-page/asset-page.component';
 import { StockDetailComponent } from './stock-detail/stock-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { VideoPageComponent } from './video-page/video-page.component';
+import { MediaAssetPageComponent } from './media-asset-page/media-asset-page.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { VideoPageComponent } from './video-page/video-page.component';
     AssetPageComponent,
     StockDetailComponent,
     PageNotFoundComponent,
-    VideoPageComponent
+    VideoPageComponent,
+    MediaAssetPageComponent
   ],
   imports: [
     BrowserModule,

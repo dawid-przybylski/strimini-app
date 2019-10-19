@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { map } from 'rxjs/operators';
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-asset-page',
@@ -35,10 +36,14 @@ export class AssetPageComponent implements OnInit {
     })
   );
 
-  constructor(private breakpointObserver: BreakpointObserver) { }
+  constructor(private breakpointObserver: BreakpointObserver, private router: Router) { }
   // constructor() { }
 
   ngOnInit() {
+  }
+
+  public mediaAssetClicked(card) {
+    this.router.navigateByUrl(`/mediaAsset/${card.title}`);
   }
 
 }
