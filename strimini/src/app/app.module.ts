@@ -19,6 +19,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AssetPageComponent } from './asset-page/asset-page.component';
 import { StockDetailComponent } from './stock-detail/stock-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { VideoPageComponent } from './video-page/video-page.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     NavbarComponent,
     AssetPageComponent,
     StockDetailComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    VideoPageComponent
   ],
   imports: [
     BrowserModule,
