@@ -7,7 +7,7 @@
         <mat-card class="dashboard-card" (click)="clickHandler(card.title)">
           <mat-card-header>
             <mat-card-title>
-              {{card.title}}
+              {{card.title}} ({{card.ticker}})
               <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
                 <mat-icon>more_vert</mat-icon>
               </button>
@@ -19,7 +19,6 @@
           </mat-card-header>
           <mat-card-content class="dashboard-card-content">
             <img mat-card-image src="{{card.img}}">
-            <div>Card Content Here</div>
           </mat-card-content>
         </mat-card>
       </mat-grid-tile>
