@@ -20,8 +20,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AssetPageComponent } from './asset-page/asset-page.component';
 import { StockDetailComponent } from './stock-detail/stock-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+
+import { VideoPageComponent } from './video-page/video-page.component';
+import { MediaAssetPageComponent } from './media-asset-page/media-asset-page.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 import { WordFrequencyGraphComponent } from './word-frequency-graph/word-frequency-graph.component';
+
 
 @NgModule({
   declarations: [
@@ -31,6 +38,11 @@ import { WordFrequencyGraphComponent } from './word-frequency-graph/word-frequen
     AssetPageComponent,
     StockDetailComponent,
     PageNotFoundComponent,
+
+    VideoPageComponent,
+    MediaAssetPageComponent,
+    FooterComponent,
+    HeaderComponent,
     SplashScreenComponent,
     WordFrequencyGraphComponent
   ],
