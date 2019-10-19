@@ -1,9 +1,5 @@
-.page-content{
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .grid-container {
-  
+  margin: 20px;
 }
 
 .dashboard-card {
@@ -12,6 +8,11 @@
   left: 15px;
   right: 15px;
   bottom: 15px;
+  height: 120px;
+}
+
+.tile {
+  height: 200px;
 }
 
 .more-button {

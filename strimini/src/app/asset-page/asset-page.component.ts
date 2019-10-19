@@ -14,6 +14,7 @@ export class AssetPageComponent implements OnInit {
     map(({ matches }) => {
       if (matches) {
         return [
+          { title: 'Fox News', cols: 1, rows: 1, img: 'assets/img/fox-news-logo.png', mentions: 14 },
           { title: 'BBC', cols: 1, rows: 1, img: 'assets/img/bbc-logo.png', mentions: 11 },
           { title: 'Al Jazeera', cols: 1, rows: 1, img: 'assets/img/aljazeera.jpg', mentions: 7 },
           // { title: 'Twitter', cols: 1, rows: 1, img: 'assets/img/twitter-logo.png', mentions: 5 },
@@ -25,6 +26,7 @@ export class AssetPageComponent implements OnInit {
       }
 
       return [
+        { title: 'Fox News', cols: 1, rows: 1, img: 'assets/img/fox-news-logo.png' },
         { title: 'BBC', cols: 1, rows: 1, img: 'assets/img/bbc-logo.png' },
         { title: 'Al Jazeera', cols: 1, rows: 1, img: 'assets/img/aljazeera.jpg' },
         // { title: 'Twitter', cols: 1, rows: 1, img: 'assets/img/twitter-logo.png' },
