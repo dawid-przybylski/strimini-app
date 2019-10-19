@@ -1,2 +1,7 @@
-<p>word-frequency-graph works!</p>
-<google-chart [type]="'LineChart'" [data]="myData" [options]="options" [height]="100"></google-chart>
+<google-chart
+    [type]="'LineChart'"
+    [data]="myData"
+    [options]="options"
+    [height]="100"
+    [columnNames]="myColumnNames">
+</google-chart>
