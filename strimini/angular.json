@@ -34,6 +34,7 @@
               "src/styles.scss",            
               "./node_modules/video.js/dist/video-js.css",
               "./node_modules/videojs-markers/dist/videojs.markers.css",
+              "/src/assets/deeppurple-amber.css"
             ],
             "scripts": [
               "./node_modules/video.js/dist/video.js",
