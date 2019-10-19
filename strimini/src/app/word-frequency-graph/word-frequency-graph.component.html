@@ -1,7 +1,6 @@
-<google-chart
-    [type]="'LineChart'"
-    [data]="myData"
-    [options]="options"
-    [height]="100"
-    [columnNames]="myColumnNames">
-</google-chart>
+
+<ng-container *ngIf="myData | async as data">
+    <google-chart [type]="'LineChart'" [data]="data" [options]="options" [height]="100"
+        [columnNames]="myColumnNames">
+    </google-chart>
+</ng-container>

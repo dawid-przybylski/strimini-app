@@ -1,5 +1,9 @@
 import { Injectable } from '@angular/core';
 import * as transcriptData from './data';
+import { HttpClient } from '@angular/common/http';
+import { take, map , tap} from 'rxjs/operators';
+import { Observable } from 'rxjs';
+import { JsonPipe } from '@angular/common';
 // import { HttpClient } from '@angular/common/http';
 
 @Injectable({
@@ -8,20 +12,15 @@ import * as transcriptData from './data';
 export class TranscriptToPlotDataService {
 
   public data: any = transcriptData;
-  
-  
-
   // public data = JSON.parse(JSON.stringify(transcriptData));
-  constructor() {
-    // this.http.get('assets/ordersummary.json')//, options)
-    // const configUrl = 'assets/data.json';
+  constructor(private httpClient: HttpClient) {
 
-    // this.http.get(configUrl).subscribe((data) => {
-    //   this.data = data;
-    //   console.log(this.data);
 
-    // });
-    // console.log(this.data);
+    this.httpClient.get('/assets/data.json').pipe(
+      take(1),
+      map(data => this.data)
+    );
+  
     console.error(this.data);
   
 
@@ -42,8 +41,14 @@ export class TranscriptToPlotDataService {
 
   }
 
-  public getData() {
-    return this.generateFrequencyData();
+  public getData(): Observable<any> {
+
+    return this.httpClient.get('/assets/data.json').pipe(
+      
+    //  tap(data=> JSON.parse(data)),
+      map(dataPoint  => {return [(dataPoint as any).offset, (dataPoint as any).value]}),
+      
+    );
   }
 
 }

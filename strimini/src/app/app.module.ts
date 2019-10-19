@@ -28,6 +28,7 @@ import { HeaderComponent } from './header/header.component';
 
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 import { WordFrequencyGraphComponent } from './word-frequency-graph/word-frequency-graph.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -49,6 +50,7 @@ import { WordFrequencyGraphComponent } from './word-frequency-graph/word-frequen
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule,
     MatTabsModule,
