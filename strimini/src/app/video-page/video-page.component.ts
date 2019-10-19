@@ -35,16 +35,29 @@ export class VideoPageComponent implements OnInit, AfterViewInit {
       let aspectRatio = 264 / 640;
 
       //   // internal method to handle a window resize event to adjust the video player
-      function resizeVideoJS() {
-        let width = document.getElementById(id).parentElement.offsetWidth;
-        myPlayer.width(width).height(width * aspectRatio);
-      }
+      // function resizeVideoJS() {
+      //   let width = document.getElementById(id).parentElement.offsetWidth;
+      //   myPlayer.width(width).height(width * aspectRatio);
+      // }
 
       //   // Initialize resizeVideoJS()
-      resizeVideoJS();
+      // resizeVideoJS();
 
       //   // Then on resize call resizeVideoJS()
-      window.onresize = resizeVideoJS;
+      // window.onresize = resizeVideoJS;
+    });
+
+    this.player.markers({
+      markerStyle: {
+        'width': '8px',
+        'background-color': 'red'
+      },
+      markers: [
+        { time: 1, text: "this" },
+        { time: 2, text: "is" },
+        { time: 3, text: "so" },
+        { time: 4, text: "cool" }
+      ]
     });
   }
 
