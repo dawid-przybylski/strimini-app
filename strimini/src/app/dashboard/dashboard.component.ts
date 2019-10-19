@@ -14,15 +14,15 @@ export class DashboardComponent {
     map(({ matches }) => {
       if (matches) {
         return [
-          { title: 'Tesla', cols: 1, rows: 1, img: 'assets/img/chart.png' },
-          { title: 'Trump', cols: 1, rows: 1, img: 'assets/img/chart.png' },
-          { title: 'Asseco', cols: 1, rows: 1, img: 'assets/img/chart.png' },
+          { title: 'Tesla', ticker: 'TSLA',  cols: 1, rows: 1, img: 'assets/img/chart.png' },
+          { title: 'Google Inc.', ticker: 'GOOGL', cols: 1, rows: 1, img: 'assets/img/chart.png' },
+          { title: 'Asseco', ticker: 'ACP', cols: 1, rows: 1, img: 'assets/img/chart.png' },
         ];
       }
 
       return [
         { title: 'Tesla', cols: 1, rows: 1, img: 'assets/img/chart.png' },
-        { title: 'Trump', cols: 1, rows: 1, img: 'assets/img/chart.png' },
+        { title: 'Google Inc. ', cols: 1, rows: 1, img: 'assets/img/chart.png' },
         { title: 'Asseco', cols: 1, rows: 1, img: 'assets/img/chart.png' },
       ];
     })
