@@ -16,7 +16,9 @@
             </mat-card-header> -->
             <mat-card-content class="dashboard-card-content">
                 <img mat-card-image src="{{card.img}}">
-                <!-- <div>Card Content Here</div> -->
+                <div>Mentions: {{card.mentions}}
+                    <img class="trending-arrow" *ngIf="card.mentions > 5" src="assets/img/trending-up.png">
+                </div>
             </mat-card-content>
             </mat-card>
         </mat-grid-tile>
