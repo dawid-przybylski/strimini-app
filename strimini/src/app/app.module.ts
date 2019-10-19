@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { GoogleChartsModule } from 'angular-google-charts';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,10 +20,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AssetPageComponent } from './asset-page/asset-page.component';
 import { StockDetailComponent } from './stock-detail/stock-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+
 import { VideoPageComponent } from './video-page/video-page.component';
 import { MediaAssetPageComponent } from './media-asset-page/media-asset-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+
+import { SplashScreenComponent } from './splash-screen/splash-screen.component';
+import { WordFrequencyGraphComponent } from './word-frequency-graph/word-frequency-graph.component';
+
 
 @NgModule({
   declarations: [
@@ -32,10 +38,13 @@ import { HeaderComponent } from './header/header.component';
     AssetPageComponent,
     StockDetailComponent,
     PageNotFoundComponent,
+
     VideoPageComponent,
     MediaAssetPageComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    SplashScreenComponent,
+    WordFrequencyGraphComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +58,8 @@ import { HeaderComponent } from './header/header.component';
     MatIconModule,
     MatButtonModule,
     LayoutModule,
-    MatToolbarModule
+    MatToolbarModule,
+    GoogleChartsModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
